@@ -1,0 +1,6 @@
+[book]
+authors = ["Mohan Chinnappan"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Mastering Lightning Web Components (LWC)"
