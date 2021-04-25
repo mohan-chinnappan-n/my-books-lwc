@@ -2,6 +2,8 @@
 
 ## What is  Web Components ?
 
+![lwc-1](img/c1/lwc-1.png)
+
 - Custom Elements
 - Shadow DOM
 - HTML Template
@@ -53,6 +55,40 @@
     const shadowRoot = header.attachShadow({mode: 'open'});
     shadowRoot.innerHTML = `<h1>Hello Shadow DOM</h1>`;
     ```
+- By default, if an element has shadow DOM, the shadow tree is rendered instead of the element's children.
+- To allow children to render, you need to add placeholders for them in your shadow tree. To do this in shadow DOM:
+```html
+<!-- shadow tree for <my-header> -->
+<header>
+   <h1><slot></slot></h1>
+   <button>Menu</button>
+</header>
+```
+```html
+<my-header>Shadow DOM</my-header>
+```
+- The header renders as if the <slot> element was replaced by the children:
+```html
+<my-header>
+  <header>
+     <h1>Shadow DOM</h1>
+     <button>Menu</button>
+  </header>
+</my-header>
+
+```
+
+## Practice
+
+- [wc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/IJgOSRDGGgLfBttpm68W/src/index.js)
+- [lwc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/Mdnsri52E4oYwk4gv7YU/src/app.html)
+
+## References
+- [Web Components Spec](https://www.webcomponents.org/specs)
+- [MDN Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+- [Web Components: The Secret Ingredient Helping Power The Web](https://www.youtube.com/watch?v=YBwgkr_Sbx0)
+- [Web Components Crash Course](https://www.youtube.com/watch?v=PCWaFLy3VUo)
+
 
 
 
