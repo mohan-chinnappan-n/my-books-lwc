@@ -55,6 +55,7 @@
     const shadowRoot = header.attachShadow({mode: 'open'});
     shadowRoot.innerHTML = `<h1>Hello Shadow DOM</h1>`;
     ```
+- [Shadow DOM Example](http://localhost:3000/code/c1/shadowDom.html)
 - By default, if an element has shadow DOM, the shadow tree is rendered instead of the element's children.
 - To allow children to render, you need to add placeholders for them in your shadow tree. To do this in shadow DOM:
 ```html
@@ -78,16 +79,35 @@
 
 ```
 
+## LWC offers
+
+![lwc offers](img/c1/lwc-2.png)
+
 ## Practice
 
-- [wc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/IJgOSRDGGgLfBttpm68W/src/index.js)
-- [lwc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/Mdnsri52E4oYwk4gv7YU/src/app.html)
+- Kovai-Contact
+    - WC
+        - [wc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/IJgOSRDGGgLfBttpm68W/src/index.js)
+        - [wc - Kovai-Contact component with SVG in Playground](https://webcomponents.dev/edit/77FkRghy5tt4ikhnUnge/src/index.js)
+    - LWC
+        - [lwc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/Mdnsri52E4oYwk4gv7YU/src/app.html)
+        - [REST and datatable with Filter](https://webcomponents.dev/edit/eCOqgjCZEvP30GkAeuop/src/app.js)
 
 ## References
 - [Web Components Spec](https://www.webcomponents.org/specs)
 - [MDN Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 - [Web Components: The Secret Ingredient Helping Power The Web](https://www.youtube.com/watch?v=YBwgkr_Sbx0)
 - [Web Components Crash Course](https://www.youtube.com/watch?v=PCWaFLy3VUo)
+
+### Custom Elements
+- [Custom Elements & HTML Templates | Developer Quick Takes ](https://www.youtube.com/watch?v=6rK3AyxE-54&t=3s)
+### Shadow DOM
+- [Explaining the Shadow DOM | Developer Quick Takes](https://www.youtube.com/watch?v=K5i9zMzVlzM)
+
+### Use anywhere
+- [Build Connected Apps Anywhere Using Lightning Base Components](https://developer.salesforce.com/blogs/2020/12/build-connected-apps-anywhere-using-lightning-base-components.html)
+- [Build Apps with Lightning Web Components Open Source](https://trailhead.salesforce.com/en/content/learn/trails/build-apps-lightning-web-components-open-source)
+
 
 
 

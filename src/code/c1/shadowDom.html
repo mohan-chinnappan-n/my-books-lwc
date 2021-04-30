@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow DOM vs Light DOM</title>
+    <style>
+        h1 {
+            color:steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Light DOM</h1>
+    <textarea name="shadow-content" id="shadow-content" cols="30" rows="10"></textarea>
+    <script>
+       const divEl = document.createElement('div');
+       const shadowRoot = divEl.attachShadow({ mode: "open"});
+       shadowRoot.innerHTML = `<h1> Shadow DOM</h1>`;
+
+
+       const body = document.querySelector('body');
+       body.appendChild(divEl);
+
+       const textareaEl = document.getElementById('shadow-content');
+       const sh1Content = divEl.shadowRoot.querySelector('h1').textContent;
+       textareaEl.value = `content from shadow DOM: ${sh1Content}`; 
+
+    </script>
+    
+</body>
+</html>
