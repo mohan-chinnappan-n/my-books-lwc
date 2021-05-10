@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shadow DOM in Web Components</title>
+    <style>
+        h1 {
+            color:steelblue;
+        }
+    </style>
 </head>
 <body>
-    
+    <script>
+
+        class KovaiHeader extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({mode: "open"});
+
+                this.shadowRoot.innerHTML = `<h1> Shadow DOM</h1>`;
+
+            }
+
+            connectedCallback() {
+                console.log(this.shadowRoot.querySelector('h1'));
+                
+            }
+        }
+        customElements.define('kovai-header', KovaiHeader);
+
+        /*
+
+         ref: https://webcomponents.dev/edit/CWFfaoHvxjnhpmsEL4uc/src/app.js
+
+
+        */
+    </script>
+
+    <h1>Light DOM</h1>
+    <kovai-header></kovai-header>
 </body>
 </html>

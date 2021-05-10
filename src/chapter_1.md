@@ -78,10 +78,60 @@
 </my-header>
 
 ```
+- Each LWC has a shadow DOM tree attached
 
 ## LWC offers
 
 ![lwc offers](img/c1/lwc-2.png)
+
+
+## LWC component is composed of three files
+- 1. HTML template 
+    - From HTML Template spec (Greeting.html)
+```html
+<template>
+     <p>Welcome to LWC!</p>
+     <p>{msg.morning}</p>
+     <p>{equation}</p>
+</template>
+```
+    - It will be rendered like this: (kebab-case)
+```html
+        <c-greeting>
+            <p>Welcome to LWC!</p>
+            <p>{msg.morning}</p>
+            <p>{equation}</p>
+        </c-greeting>
+
+
+```
+- 2. Javascript file (Greeting.js)
+    - ES6 Modules spec (import, export)
+    - Custom Element Spec (LightningElement)
+```js
+import { LightningElement } from 'lwc';
+export default class Greeting extends LightningElement {
+    msg =  { morning: 'All great things are simple!',
+             evening: 'A person who never made a mistake never tried anything new!'
+           } // attribute
+
+    get equation() { // you can do calculations in getters
+        return 'e=mc**2';
+    }
+
+}
+
+```
+- 3. metadata file ( to deploy the component into the Salesforce Platform)
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>false</isExposed>
+</LightningComponentBundle>
+
+```
+- [Greeting in Playground](https://webcomponents.dev/edit/bGdrbd1FgVFX9tXS7Ubb/src/app.html)
 
 ## Practice
 
