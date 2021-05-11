@@ -98,7 +98,7 @@
     - It will be rendered like this: (kebab-case)
 ```html
         <c-greeting>
-            <p>Welcome to LWC!</p>
+            <p class='heading'>Welcome to LWC!</p>
             <p>{msg.morning}</p>
             <p>{equation}</p>
         </c-greeting>
@@ -130,8 +130,19 @@ export default class Greeting extends LightningElement {
     <isExposed>false</isExposed>
 </LightningComponentBundle>
 
+- 4. CSS
+```css
+.heading {
+    font-size:30px;
+}
 ```
+
+
 - [Greeting in Playground](https://webcomponents.dev/edit/bGdrbd1FgVFX9tXS7Ubb/src/app.html)
+- [LWC base components](https://developer.salesforce.com/docs/component-library/overview/components)
+- [Lightning Design System](https://www.lightningdesignsystem.com/)
+    - Styles are scoped for the component
+        - Styles defined for the parent component will not affect its child components (shadow DOM)
 
 ## Practice
 
