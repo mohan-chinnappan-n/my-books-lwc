@@ -15,8 +15,7 @@
   <script>
        let fs = 30;
        document.getElementById('h1').addEventListener('click', evt => {
-         fs++;
-         evt.target.style.fontSize = `${fs}px`;
+         evt.target.style.fontSize = `${++fs}px`;
 
        });
   </script>
