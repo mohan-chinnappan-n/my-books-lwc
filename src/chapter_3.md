@@ -179,6 +179,9 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 ![Contact Home Page](img/c3/contactCard-1.png)
 
 
+## Using LWC in TCRM
+
+![LWC in TCRM](img/tcrm-lwc-1.gif)
 
 
 ## References
