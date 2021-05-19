@@ -182,7 +182,7 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 <a name='lwctcrm'></a>
 ## Using LWC in TCRM
 
-![LWC in TCRM](img/c3/tcrm-lwc-1.gif)
+![LWC in TCRM](img/c3/tcrm-lwc-2.gif)
 
 
 ## References
