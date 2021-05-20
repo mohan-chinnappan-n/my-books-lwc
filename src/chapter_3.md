@@ -185,6 +185,12 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 ![LWC in TCRM](img/c3/tcrm-lwc-2.gif)
 
 
+## Using Modals in LWC
+
+- [Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
+- [Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
+
+
 ## References
 - [VS Code with Salesforce Extensions](https://bit.ly/sfvscode)
 - [Salesforce CLI](https://sfdc.co/sfcli)
