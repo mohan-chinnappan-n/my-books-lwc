@@ -153,6 +153,7 @@ export default class Greeting extends LightningElement {
     - LWC
         - [lwc - Kovai-Contact component in Playground](https://webcomponents.dev/edit/Mdnsri52E4oYwk4gv7YU/src/app.html)
         - [REST and datatable with Filter](https://webcomponents.dev/edit/eCOqgjCZEvP30GkAeuop/src/app.js)
+        - [Playing with button and images](https://webcomponents.dev/edit/vGuQip2diPJ5QoPiEvvs/src/app.js)
 
 ## References
 - [Web Components Spec](https://www.webcomponents.org/specs)
