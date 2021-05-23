@@ -87,8 +87,6 @@ export default class App extends LightningElement {
 
   columns = columns;
 
-
-
     // Note: Your LWC component is limited in accessing document.cookie
     // -  only cookies that were set from the LWC component can be accessed.
 
