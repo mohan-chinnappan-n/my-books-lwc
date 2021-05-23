@@ -3,8 +3,9 @@
 ## Code Generator for the given SOQL 
 
 ![code-gen-soql](img/data/lwc-code-gen-1.gif)
-## Using uiAPI
-![codegen usage](img/data/lwc-code-gen-1.png)
+### Usage 
+![codegen usage](img/data/lwc-code-gen-2.png)
+## Using uiRecordApi
 
 ### Component Markup Contact.html
 
