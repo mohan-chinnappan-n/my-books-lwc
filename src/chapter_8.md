@@ -89,8 +89,10 @@ export default class App extends LightningElement {
 
 
 
+    // Note: Your LWC component is limited in accessing document.cookie
+    // -  only cookies that were set from the LWC component can be accessed.
 
-  get cookies() {
+    get cookies() {
     document.cookie = "favorite_fruit=apple";
     const citems = document.cookie.split(';');
     const cookies = [];
