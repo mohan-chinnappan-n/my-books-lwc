@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Opportunity Record" icon-name="standard:opportunity">
+        <template if:true={opportunity.data}>
+            <div class="slds-m-around_medium">
+                 <p>{id}</p><p>{name}</p>
+            </div>
+        </template>
+    </lightning-card>
+</template>
