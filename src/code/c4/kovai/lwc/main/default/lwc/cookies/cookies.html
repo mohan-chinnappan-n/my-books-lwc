@@ -1,0 +1,18 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">{title}</h1>
+
+		<lightning-datatable key-field="name" data={cookies} columns={columns}>
+		</lightning-datatable>
+
+		<template for:each={cookies} for:item="cookie">
+			<div key={cookie.value}>
+				{cookie.name} = { cookie.value}
+				<hr />
+			</div>
+		</template>
+
+
+
+	</div>
+</template>
