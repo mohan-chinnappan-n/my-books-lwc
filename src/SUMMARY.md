@@ -4,7 +4,7 @@
     - [Practice - Stock Quote Component](./practice/p_1.md)
 - [LWC vs Aura](./chapter_2.md)
 - [Development Environment](./chapter_3.md)
-    - [Using Data](./chapter_data.md)
+- [Using Salesforce Data](./chapter_data.md)
 - [Decorators](./chapter_4.md)
 - [Component Life Cycle](./chapter_5.md)
 - [Events](./chapter_6.md)
