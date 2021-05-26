@@ -187,6 +187,11 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 ### LWC with a Step in TCRM
 ![LWC in TCRM with a step](img/c3/tcrm-db-lwc-1.gif)
 
+### Code generator for LWC with a Step in TCRM 
+![LWC in TCRM with a step - codegen](img/c3/tcrm-db-lwc-2.gif)
+
+
+
 
 
 
