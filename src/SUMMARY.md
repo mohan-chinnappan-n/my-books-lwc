@@ -5,6 +5,7 @@
 - [LWC vs Aura](./chapter_2.md)
 - [Development Environment](./chapter_3.md)
 - [Using Salesforce Data](./chapter_data.md)
+- [Charting Data](./chapter_charts.md)
 - [Decorators](./chapter_4.md)
 - [Component Life Cycle](./chapter_5.md)
 - [Events](./chapter_6.md)

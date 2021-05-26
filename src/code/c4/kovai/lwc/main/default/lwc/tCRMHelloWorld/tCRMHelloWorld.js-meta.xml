@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>51.0</apiVersion>
-    <isExposed>true</isExposed>
-
-    <masterLabel>
-        Hello From LWC
-    </masterLabel>
-    <description>LWC component usage test</description>
-
-    <targets>
-        <target>analytics__Dashboard</target>
-    </targets>
-
-
-        <targetConfigs>
-            <targetConfig targets="analytics__Dashboard">
-                <hasStep>false</hasStep>
-                <property name='title' type='String' label='My Title' required="true">
-
-                </property>
-            </targetConfig>
-
-        </targetConfigs>
-
-
-
-    
+	<apiVersion>
+		51.0
+	</apiVersion>
+	<isExposed>
+		true
+	</isExposed>
+	<masterLabel>
+		Hello From LWC
+	</masterLabel>
+	<description>
+		LWC component usage test
+	</description>
+	<targets>
+		<target>
+			analytics__Dashboard
+		</target>
+	</targets>
+	<targetConfigs>
+		<targetConfig targets="analytics__Dashboard">
+			<hasStep>
+				true
+			</hasStep>
+			<property name="title" type="String" label="My Title" required="true">
+			</property>
+		</targetConfig>
+	</targetConfigs>
 </LightningComponentBundle>

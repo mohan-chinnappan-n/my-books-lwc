@@ -184,6 +184,11 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 
 ![LWC in TCRM](img/c3/tcrm-lwc-2.gif)
 
+### LWC with a Step in TCRM
+![LWC in TCRM with a step](img/c3/tcrm-db-lwc-1.gif)
+
+
+
 
 ## Using Modals in LWC
 
