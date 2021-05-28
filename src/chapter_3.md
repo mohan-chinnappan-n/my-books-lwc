@@ -249,6 +249,8 @@ export default class ContactAction extends LightningElement {
 ![LWC Action](img/c3/lwc-action-5.png)
 ![LWC Action](img/c3/lwc-action-6.png)
 ![LWC Action](img/c3/lwc-action-7.png)
+![LWC Action](img/c3/lwc-action-8.png)
+
 
 
 
