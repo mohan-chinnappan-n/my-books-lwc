@@ -200,6 +200,8 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 - [Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
 - [Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
 
+<a name='actionLWC'></a>
+
 ## How to Create Quick Actions with Lightning Web Components
 - [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
 ```xml
