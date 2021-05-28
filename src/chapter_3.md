@@ -241,6 +241,22 @@ export default class ContactAction extends LightningElement {
 ```
 
 ![LWC Action](img/c3/lwc-action-1.png)
+![LWC Action](img/c3/lwc-action-2.png)
+![LWC Action](img/c3/lwc-action-3.png)
+![LWC Action](img/c3/lwc-action-4.png)
+![LWC Action](img/c3/lwc-action-5.png)
+![LWC Action](img/c3/lwc-action-6.png)
+![LWC Action](img/c3/lwc-action-7.png)
+
+
+
+
+
+
+
+
+
+- [New and Changed Lightning Web Components](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_components.htm&type=5&release=232)
 
 
 ## References
