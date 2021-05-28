@@ -240,6 +240,8 @@ export default class ContactAction extends LightningElement {
 
 ```
 
+![LWC Action](img/c3/lwc-action-1.png)
+
 
 ## References
 - [VS Code with Salesforce Extensions](https://bit.ly/sfvscode)
