@@ -200,6 +200,46 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 - [Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
 - [Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
 
+## How to Create Quick Actions with Lightning Web Components
+- [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+   <apiVersion>52.0</apiVersion>
+   <isExposed>true</isExposed>
+   <targets>
+       <target>lightning__RecordAction</target>
+   </targets>
+    <targetConfigs>
+   <targetConfig targets="lightning__RecordAction">
+     <actionType>Action</actionType>
+   </targetConfig>
+ </targetConfigs>
+</LightningComponentBundle>
+
+```
+
+```js
+
+import { LightningElement, api } from 'lwc';
+
+export default class ContactAction extends LightningElement {
+    @api invoke() {
+        console.log("Hi, I'm an action.");
+    }
+
+}
+
+```
+
+```html
+
+ <template>
+   <p>LWC Action Test</p> 
+</template>
+
+```
+
 
 ## References
 - [VS Code with Salesforce Extensions](https://bit.ly/sfvscode)
