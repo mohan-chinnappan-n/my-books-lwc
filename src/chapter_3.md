@@ -202,6 +202,7 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 
 - [Using HTML table, onmouseout, mouseover and Accordion](https://webcomponents.dev/edit/vyTOq6OxDHjnqJxyocUr/src/app.js)
 
+### Custom Events
 - [Custom Events](https://webcomponents.dev/edit/Nt7TcB5zDGUq0B85CUKH/src/app.js)
 <a name='actionLWC'></a>
 - [Custom Events with Fruits Data](https://webcomponents.dev/edit/HwDe39HCmlcOVgvmKhGq/src/app.html)
