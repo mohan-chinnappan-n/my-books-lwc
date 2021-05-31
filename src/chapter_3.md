@@ -200,6 +200,8 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 - [Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
 - [Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
 
+- [Accordion Sample](https://webcomponents.dev/edit/XDq1O4AcIXIhe3ucqSCF/src/app.js)
+
 - [Using HTML table, onmouseout, mouseover and Accordion](https://webcomponents.dev/edit/vyTOq6OxDHjnqJxyocUr/src/app.js)
 
 ### Custom Events
@@ -207,9 +209,13 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 <a name='actionLWC'></a>
 - [Custom Events with Fruits Data](https://webcomponents.dev/edit/HwDe39HCmlcOVgvmKhGq/src/app.html)
 
-###  customTypes for datatable
-
-[CustomTypes for datatable with Accordion](https://webcomponents.dev/edit/KHtd0NZiWAvm3QVNzU32/src/app.js)
+###  customTypes for datatable 
+- with sorting, delete, row actions
+- filtering support
+- Demo
+    - ![custom types demo](img/c3/datatable-customTypes-1.gif)
+- Playground
+    - [CustomTypes for datatable with Accordion](https://webcomponents.dev/edit/KHtd0NZiWAvm3QVNzU32/src/app.js)
 
 ## How to Create Quick Actions with Lightning Web Components
 - [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
