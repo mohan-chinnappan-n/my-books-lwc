@@ -207,6 +207,10 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 <a name='actionLWC'></a>
 - [Custom Events with Fruits Data](https://webcomponents.dev/edit/HwDe39HCmlcOVgvmKhGq/src/app.html)
 
+###  customTypes for datatable
+
+[CustomTypes for datatable with Accordion](https://webcomponents.dev/edit/KHtd0NZiWAvm3QVNzU32/src/app.js)
+
 ## How to Create Quick Actions with Lightning Web Components
 - [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
 ```xml
