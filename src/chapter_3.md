@@ -212,10 +212,14 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 ###  customTypes for datatable 
 - with sorting, delete, row actions
 - filtering support
+- search support
 - Demo
     - ![custom types demo](img/c3/datatable-customTypes-1.gif)
 - Playground
     - [CustomTypes for datatable with Accordion](https://webcomponents.dev/edit/KHtd0NZiWAvm3QVNzU32/src/app.js)
+
+- Playground with pagination
+    - [CustomTypes for datatable with Accordion with Pagination](https://webcomponents.dev/edit/y7recJr8e7bLJHmNza8Y/src/app.js)
 
 ## How to Create Quick Actions with Lightning Web Components
 - [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
